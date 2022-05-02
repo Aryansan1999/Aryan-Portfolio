@@ -4,12 +4,13 @@
     font-family: sans-serif;
 
 }
-.logo{
-    height:150px;
+
+.logo {
+    height: 150px;
     width: 150px;
     border-radius: 40px;
     margin-top: 110px;
-   
+
 }
 
 .hero {
@@ -18,7 +19,7 @@
     height: 45vh;
     background: #ff0707;
     border-radius: 40px;
-   
+
 }
 
 nav {
@@ -26,13 +27,13 @@ nav {
     width: 84%;
     margin: auto;
     padding: 20px 0;
-    align-items:calc();
+    align-items: calc();
     justify-content: space-between;
 }
 
 nav ul li {
     display: inline-block;
-    list-item: none;
+
     margin: 10px 20px;
 }
 
@@ -77,45 +78,80 @@ span {
     margin: 5px 0px;
     border-radius: 5px;
 }
-.gim{
+
+.gim {
     width: 30%;
     height: 70%;
     position: absolute;
     bottom: 0;
     margin-top: 1000px;
     right: 100px;
-    border-radius: 80px;   
+    border-radius: 80px;
 }
-.img{
-    margin-top: 150px;;
+
+.img {
+    margin-top: 150px;
 }
 
 div.gallery {
-  margin: 5px;
-  border: 1px solid #ccc;
-  float: left;
-  width: 180px;
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 180px;
 }
 
 
 .gallery img {
-  width: 100%;
-  height: auto;
+    width: 100%;
+    height: auto;
 }
 
 .desc {
-  padding: 15px;
-  text-align: center;
+    padding: 15px;
+    text-align: center;
 }
+
 .gallery {
     padding: 8px;
-    transition: transform .2s; /* Animation */
+    transition: transform .2s;
+    /* Animation */
     margin: 0 auto;
-  }
-  
-  .gallery:hover {
-    transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
-  }
-  .round{
-      border-radius: 40px;
-  }
+}
+
+.gallery:hover {
+    transform: scale(1.5);
+    /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
+.round {
+    border-radius: 40px;
+}
+
+.insta {
+
+    background: #09bcc6;
+    text-decoration: none;
+    padding: 5px;
+    font-weight: bold;
+    color: #fff;
+    display: inline-block;
+    margin: 5px 0px;
+    border-radius: 5px;
+}
+
+.gith {
+    background: #09bcc6;
+
+    text-decoration: none;
+    padding: 5px;
+    font-weight: bold;
+    color: #fff;
+    display: inline-block;
+    margin: 5px 0px;
+    border-radius: 5px;
+
+}
+
+.pad {
+    padding: 10px;
+}
